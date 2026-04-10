@@ -683,7 +683,7 @@ function SubjectsTab({ user, updateUser }) {
               <label className="lbl">Section *</label>
               <select className="input" name="section" value={form.section} onChange={setSub}>
                 <option value="">Select</option>
-                {['A','B','C','D','E'].map(s => <option key={s}>{s}</option>)}
+                {['1','2','3','4','5'].map(s => <option key={s}>{s}</option>)}
               </select>
             </div>
             <div>
